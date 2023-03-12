@@ -122,7 +122,7 @@ local SettingsTab = MainWindow:MakeTab({
 SettingsTab:AddButton({
 	Name = "Re-Execute",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamePlusScript/DriftHubplus/main/MainScript", true))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamePlusScript/krobarmod/main/MainScript", true))()
   	end    
 })
 
