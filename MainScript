@@ -111,6 +111,13 @@ MainTab:AddButton({
   	end    
 })
 
+MainTab:AddButton({
+	Name = "Big Paint Ball All-guns",
+	Callback = function()
+      		 loadstring(game:HttpGet("https://raw.githubusercontent.com/Zaruix/Big-Paint-Ball-Allgun/main/E"",true)) ()
+  	end    
+})
+
 -- Setings tab --
 
 local SettingsTab = MainWindow:MakeTab({
