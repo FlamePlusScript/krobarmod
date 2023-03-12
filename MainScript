@@ -11,6 +11,13 @@ OrionLib:MakeNotification({
 	Time = 5
 })
 
+OrionLib:MakeNotification({
+	Name = "Join the discord!",
+	Content = "Get access to our update log and more features! Link on main page of UI",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
 -- config save --
 
 local MainWindow = OrionLib:MakeWindow({Name = "krobar", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionFolder"})
@@ -32,7 +39,7 @@ InfoTab:AddParagraph("Updates","Added Google Translate Script + Translation Tab"
 
 local MainTab = MainWindow:MakeTab({
 	Name = "Main Scripts",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://4483364243",
 	PremiumOnly = false
 })
 
@@ -122,7 +129,7 @@ MainTab:AddButton({
 
 local SettingsTab = MainWindow:MakeTab({
 	Name = "Settings",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://3605022196",
 	PremiumOnly = false
 })
 
