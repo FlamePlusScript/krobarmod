@@ -39,7 +39,7 @@ InfoTab:AddParagraph("Updates","Added Google Translate Script + Translation Tab"
 
 local MainTab = MainWindow:MakeTab({
 	Name = "Main Scripts",
-	Icon = "rbxassetid://4483364243",
+	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
@@ -129,7 +129,7 @@ MainTab:AddButton({
 
 local SettingsTab = MainWindow:MakeTab({
 	Name = "Settings",
-	Icon = "rbxassetid://3605022196",
+	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
