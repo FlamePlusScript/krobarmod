@@ -1,0 +1,145 @@
+loadstring(game:HttpGet("https://pastebin.com/raw/nKCdGTgZ"))()
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+-- starting notications --
+
+OrionLib:MakeNotification({
+	Name = "krobar",
+	Content = "krobar has been executed",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+-- config save --
+
+local MainWindow = OrionLib:MakeWindow({Name = "krobar", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionFolder"})
+
+-- Info Tab --
+
+local InfoTab = MainWindow:MakeTab({
+	Name = "Info",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+InfoTab:AddParagraph("Version","krobar version 1.1")
+InfoTab:AddParagraph("Credits","&User (Creator), Rifleman (Tester)")
+InfoTab:AddParagraph("Discord","https://discord.gg/5TSZ5utgjk")
+InfoTab:AddParagraph("Updates","Added Google Translate Script + Translation Tab")
+
+-- Main Scripts --
+
+local MainTab = MainWindow:MakeTab({
+	Name = "Main Scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+-- Translator --
+
+MainTab:AddLabel("Translators")
+
+MainTab:AddButton({
+	Name = "Google Translate",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/7fEXTbBT"))();
+  	end    
+})
+
+-- Admin scripts --
+
+MainTab:AddLabel("Admin Scripts")
+
+MainTab:AddButton({
+	Name = "Infinate Yield",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/uDMzwYvb"))()
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Fates Admin",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+  	end    
+})
+
+-- Game Mods --
+
+MainTab:AddLabel("Game Mods")
+
+MainTab:AddButton({
+	Name = "Driving Empire",
+	Callback = function()
+      		 loadstring(game:HttpGet("https://pastebin.com/raw/SfBiqAUE", true))()
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Murder Mystery 2",
+	Callback = function()
+      		 loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "BloxFruits",
+	Callback = function()
+      		     loadstring(game:HttpGet("https://raw.githubusercontent.com/CheeseyMine/CheeseyHub/main/CheeseyHub2V"))()
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Da Hood",
+	Callback = function()
+      		     loadstring(game:HttpGet("https://raw.githubusercontent.com/whoiscapslock/capslock/main/main", true))()
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Bedwars",
+	Callback = function()
+      		         loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Gas Station Simulator",
+	Callback = function()
+      		 loadstring(game:HttpGet("https://raw.githubusercontent.com/Candiceissus/gas-station-simulator/main/Gas%20station%20simulator",true)) ()
+  	end    
+})
+
+-- Setings tab --
+
+local SettingsTab = MainWindow:MakeTab({
+	Name = "Settings",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+SettingsTab:AddButton({
+	Name = "Re-Execute",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamePlusScript/DriftHubplus/main/MainScript", true))()
+  	end    
+})
+
+SettingsTab:AddButton({
+	Name = "Old Drift Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/PBWKQieP"))()
+  	end    
+})
+
+SettingsTab:AddButton({
+    Name = "Destroy UI",
+    Callback = function()
+        OrionLib:Destroy()
+    end
+})
+
+SettingsTab:AddParagraph("Settings","New settings will be added soon with the update of keybinds and krobar pro.")
+
+OrionLib:Init()
