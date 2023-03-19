@@ -125,14 +125,33 @@ MainTab:AddButton({
   	end    
 })
 
+-- Utility Tab --
+
+local UtilityTab = MainWindow:MakeTab({
+	Name = "Ulitity",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
 -- Game Breakers --
 
-MainTab:AddLabel("Game Breakers")
+UtilityTab:AddLabel("Game Breakers")
 
-MainTab:AddButton({
+UtilityTab:AddButton({
 	Name = "Crasher (At least 1 piece of layered clothing on)",
 	Callback = function()
       		 loadstring(game:HttpGet("https://pastebin.com/raw/CyVQ0zNG",true)) ()
+  	end    
+})
+
+-- Animations --
+
+UtilityTab:AddLabel("Animations")
+
+UtilityTab:AddButton({
+	Name = "Animation Script + extras",
+	Callback = function()
+      		 loadstring(game:HttpGet("https://pastebin.com/raw/fQ6EZQ9F",true)) ()
   	end    
 })
 
