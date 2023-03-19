@@ -30,10 +30,10 @@ local InfoTab = MainWindow:MakeTab({
 	PremiumOnly = false
 })
 
-InfoTab:AddParagraph("Version","krobar version 1.1")
+InfoTab:AddParagraph("Version","krobar version 1.2")
 InfoTab:AddParagraph("Credits","&User (Creator), Rifleman (Tester)")
-InfoTab:AddParagraph("Discord","https://discord.gg/5TSZ5utgjk")
-InfoTab:AddParagraph("Updates","Added Google Translate Script + Translation Tab")
+InfoTab:AddParagraph("Discord","https://discord.gg/r3JAkxb22Y")
+InfoTab:AddParagraph("Updates","Added Animation Script and Utility Tab")
 
 -- Main Scripts --
 
